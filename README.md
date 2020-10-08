@@ -1,10 +1,16 @@
+
 # Usage
 
-#### In `src` directory
+#### Dependencies
+[Poetry](https://python-poetry.org/)
 
-`poetry install`
 
-`poetry run python api/api.py`
+> In `src` directory
+
+```sh
+poetry install
+poetry run python api/api.py
+```
 
 ### API Endpoints
 
@@ -31,3 +37,12 @@ $ curl http://127.0.0.1:5000/
 | `GET` | `/{id}` | Returns details of "World" by ID | |
 | `PUT` | `/{id}` | Adds additional rows to existing "World" |  `text/plain` text matrix of rows to add to existing "World" |
 | `DELETE` | `/{id}` | Deletes "World" by ID | |
+
+# Running Tests
+
+> In `src` directory
+
+
+```sh
+poetry run pytest tests/
+```
