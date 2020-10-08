@@ -3,6 +3,7 @@
 #### In `src` directory
 
 `poetry install`
+
 `poetry run python api/api.py`
 
 ### API Endpoints
