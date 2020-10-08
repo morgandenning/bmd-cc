@@ -1,0 +1,6 @@
+{
+    "python.pythonPath": "/home/morgandenning/.pyenv/versions/3.8.6/bin/python",
+    "python.linting.pycodestyleEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.enabled": true
+}
